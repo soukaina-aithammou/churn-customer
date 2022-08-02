@@ -30,7 +30,7 @@
 ###         kmean_model.ipynb: contain the model 
 ### model_joblib.joblib file contain the model saved
 ### app.py the instance of Flask
-### requirement.txt contain libraries 
+### requirement.txt contains libraries 
 ### Dockerfile
 
 
