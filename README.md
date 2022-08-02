@@ -26,11 +26,13 @@
 # Usage
 ## Files in this repo
 ### in preprocessing folder:
-####        data_clean.ipynb: python file for data exploring, wrangling and cleaning, and get the final dataset for training
+####        data_clean.ipynb: python file for data exploring, wrangling and cleaning, and get the             final dataset for training
 ###         kmean_model.ipynb: contain the model 
-### model_joblib.joblib file contain the model saved
-### app.py the instance of Flask
-### requirement.txt contains libraries 
+### ML model persist  in a joblib file model_joblib.joblib 
+### flask files — index.html and app.py the instance of Flask
+### index.html for providing inputs (or features) to the model
+### requirement.txt add all of the dependencies for the flask app.
+### Procfile to specify the commands that are executed by Heroku app on startup
 ### Dockerfile
 
 
@@ -74,6 +76,13 @@
 
 ### Deploy the model on flask 
 ### Deploy the model on Heroku
+#### log in on Heroku and create a new app
+#### heroku container:push web --app <name_of_app>
+#### heroku container:release web --app <name_of_app>
+
+
+
+
 
 
 
