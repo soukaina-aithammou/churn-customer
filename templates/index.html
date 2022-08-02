@@ -1,0 +1,58 @@
+
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+
+<div class="container">
+  <div class="top_right">
+    <div class="header">
+      <h2 class="animation a1">Churn Customer Prediction</h2>
+      <h4 class="animation a2">Enter Data</h4>
+    </div>
+<div>
+  <form method="post" action={{url_for('home')}}>
+    <br>
+    <input type="text" id="Months_on_book" name="Months_on_book" class="form-field animation a3" placeholder="Months on book">
+    <br>
+    <br>
+    <input type="text" id="Total_Relationship_Count" name="Total_Relationship_Count" class="form-field animation a4" placeholder="Total Relationship Count">
+    <br>
+    <br>
+    <input type="text" id="Months_Inactive_12_mon" name="Months_Inactive_12_mon" class="form-field animation a7" placeholder="Months Inactive 12 mon">
+    <br>
+    <br>
+    <input type="text" id="Contacts_Count_12_mon" name="Contacts_Count_12_mon" class="form-field animation a8" placeholder="Contacts Count 12 mon">
+    <br>
+    <br>
+    <input type="text" id="Credit_Limit" name="Credit_Limit" class="form-field animation a9" placeholder="Credit Limit">
+    <br>
+    <br>
+    <input type="text" id="Total_Revolving_Bal  " name="Total_Revolving_Bal" class="form-field animation a10" placeholder="Total Revolving Bal">
+    <br>
+    <br>
+    <input type="text" id="Avg_Open_To_Buy" name="Avg_Open_To_Buy" class="form-field animation a11" placeholder="Avg Open To Buy">
+    <br>
+    <br>
+    <input type="text" id="Total_Amt_Chng_Q4_Q1" name="Total_Amt_Chng_Q4_Q1" class="form-field animation a12" placeholder="Total Amt Chng Q4 Q1">
+    <br>
+    <br>
+    <input type="text" id="Total_Trans_Amt" name="Total_Trans_Amt" class="form-field animation a13" placeholder="Total Trans Amt">
+    <br>
+    <br>
+    <input type="text" id="Total_Trans_Ct" name="Total_Trans_Ct" class="form-field animation a12" placeholder="Total Trans Ct">
+    <br>
+    <br>
+    <input type="text" id="Total_Ct_Chng_Q4_Q1" name="Total_Ct_Chng_Q4_Q1" class="form-field animation a14" placeholder= "Total Ct Chng Q4 Q1">
+    <br>
+    <br>
+    <input type="text" id="Avg_Utilization_Ratio" name="Avg_Utilization_Ratio" class="form-field animation a15" placeholder="Avg Utilization Ratio">
+    <br>
+    <button class="animation a6">PREDICT</button>
+  </form>
+
+   <div class="top_right"></div>
+
+</div>
+  </div>
+</div>
+
