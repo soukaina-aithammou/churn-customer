@@ -2,20 +2,10 @@
 
 ### Predict the churn customer 
 
-# Project Summary
+# Objectives:
 
 ### Mission: 1.Build machine learning model for clustering to find the groups clients and define their characteristics based on                            credit card customers dataset.
 ###                 2.Build an application that allows your customer to find the right group (cluster) for a given client. 
-
-# Objectives: 
-### Build machine learning model for clustering.
-### Select the right performance metrics for your model.
-### Tuning parameters of the model for better performance.
-### Describe the results from unsupervised learning.
-### Be able to deploy a machine learning model.
-### Be able to create a Flask API that can handle a machine learning model.
-### Create a basic Graphical User Interface to call the API
-### eploy the API and the interface on Heroku
 
 
 # Dataset:
